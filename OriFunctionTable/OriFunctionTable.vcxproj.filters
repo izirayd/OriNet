@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8ff19c66-e84b-492b-be58-1e4c546ba1ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="getopt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gettimer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TableFiles.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TableFunction.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="getopt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Gettimer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TableFiles.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TableFunction.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
