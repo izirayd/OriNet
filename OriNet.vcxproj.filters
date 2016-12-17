@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="OriServer">
+      <UniqueIdentifier>{57feee13-ce47-44dd-9cb0-ba91c983f950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OriClient">
+      <UniqueIdentifier>{b6cb2962-f350-4e45-804d-08f36c3c39e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OriServerClient">
+      <UniqueIdentifier>{ea02b3e0-eaf0-44bc-92c2-6a38579ac645}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OriNet.h" />
+    <ClInclude Include="OriServer\OriServer.h">
+      <Filter>OriServer</Filter>
+    </ClInclude>
+    <ClInclude Include="OriServer\OriServerClient.h">
+      <Filter>OriServerClient</Filter>
+    </ClInclude>
+    <ClInclude Include="OriClient\OriClient.h">
+      <Filter>OriClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OriServer\OriServer.cpp">
+      <Filter>OriServer</Filter>
+    </ClCompile>
+    <ClCompile Include="OriServer\OriServerClient.cpp">
+      <Filter>OriServerClient</Filter>
+    </ClCompile>
+    <ClCompile Include="OriClient\OriClient.cpp">
+      <Filter>OriClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
