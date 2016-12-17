@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{bbab2369-e163-454d-a0b8-5d05a64a32db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OriError.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriFile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriIndexPC.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriMutex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriSleep.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriThread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriTime.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriTSSPBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFunction.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Untils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriAsyncBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OriConsole.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OriFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OriMutex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OriSleep.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OriThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OriTime.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StringFunction.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OriAsyncBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OriConsole.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
