@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{57ba83f8-b8b6-4bdc-a87c-02391c215a0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cbignums.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Cbnl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Cios.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Cthr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctty.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Exarray.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Exdebug.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Exstring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Exthread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Random3.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Cbignum.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Cbignumf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cbnl.inl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="Cbnl64.inl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="Cbignumf.inl">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ctty.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Exarray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Prime.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Random3.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Cbignum.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Cbignumf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Cbignums.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
